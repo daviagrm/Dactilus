@@ -24,7 +24,7 @@ function Home() {
   return (
     <>
       <Navbar />
-      <UncontrolledCarousel
+     {/*  <UncontrolledCarousel
         items={[
           {
             altText: "Slide 1",
@@ -33,7 +33,7 @@ function Home() {
             src: equipe,
           },
         ]}
-      />
+      /> */}
       <Titulo texto="PROJETO DACTILUS" />
       <div className="container">
         <Cards
@@ -63,10 +63,10 @@ function Home() {
           descricao={descricaoMediapipe}
         />
       </div>
-      <Titulo texto="SOBRE A EQUIPE" />
+    {/*   <Titulo texto="SOBRE A EQUIPE" />
       <div className="container">
         <Integrantes />
-      </div>
+      </div> */}
     </>
   );
 }
